@@ -33,7 +33,7 @@ Halaman ini digunakan admin untuk proses pengembalian buku yang telah dipinjam o
 ### 6. Halaman Pencarian Buku
 
 ![Halaman Pencarian Buku](foto/Pencarianbuku.png)
-Halaman ini untuk admin mencari seluruh buku yang ada di perpustakaan dan menampilkan riwayat peminjaman buku yang pernah dilakukan oleh anggota.
+Halaman ini untuk admin mencari seluruh buku yang ada di perpustakaan dan menampilkan buku yang paling sering di pinjam.
 
 ### 7. Dashboard Admin
 
