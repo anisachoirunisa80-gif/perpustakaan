@@ -26,13 +26,13 @@ Halaman **My Book** menampilkan daftar buku yang sedang dipinjam oleh anggota, t
 
 ### 5. Halaman Pengembalian Buku
 
-![Halaman Pengembalian](foto/pengembalian.png)
+![Halaman Pengembalian](foto/Pengembalian.png)
 Halaman ini digunakan admin untuk proses pengembalian buku yang telah dipinjam oleh anggota.
 
 
 ### 6. Halaman Pencarian Buku
 
-![Halaman Pencarian Buku](foto/PencarianBuku.png)
+![Halaman Pencarian Buku](foto/Pencarianbuku.png)
 Halaman ini untuk admin mencari seluruh buku yang ada di perpustakaan dan menampilkan riwayat peminjaman buku yang pernah dilakukan oleh anggota.
 
 ### 7. Dashboard Admin
@@ -67,5 +67,5 @@ Halaman ini digunakan admin untuk mengelola proses peminjaman buku oleh anggota.
 
 ### 12. Halaman Laporan Peminjaman
 
-![Halaman Laporan Peminjaman](foto/laporanPeminjaman.png)
+![Halaman Laporan Peminjaman](foto/laporanpeminjaman.png)
 Halaman ini menampilkan laporan peminjaman buku yang berisikan nama anggota, ID peminjam, tanggal pinjam, tanggal pengembalian, dan buku yang dipinjam. Pada halaman ini admin dapat mencetak laporan peminjaman dalam bentuk **Excel** dan **PDF**.
