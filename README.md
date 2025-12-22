@@ -67,5 +67,5 @@ Halaman ini digunakan admin untuk mengelola proses peminjaman buku oleh anggota.
 
 ### 12. Halaman Laporan Peminjaman
 
-![Halaman Laporan Peminjaman](foto/Laporanpeminjaman.png)
+![Halaman Laporan Peminjaman](foto/Laporanpinjaman.png)
 Halaman ini menampilkan laporan peminjaman buku yang berisikan nama anggota, ID peminjam, tanggal pinjam, tanggal pengembalian, dan buku yang dipinjam. Pada halaman ini admin dapat mencetak laporan peminjaman dalam bentuk **Excel** dan **PDF**.
