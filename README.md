@@ -6,9 +6,9 @@
 Halaman ini digunakan oleh **anggota** untuk login ke dalam sistem dengan memasukkan username dan password. Jika anggota belum memiliki akun, tersedia tombol **daftar** untuk membuat akun baru.
 
 
-### 2. Halaman Daftar
+### 2. Halaman Daftar Anggota
 
-![Halaman Daftar](foto/Daftar.png)
+![Halaman Daftar Anggota](foto/Daftaranggota.png)
 Halaman ini digunakan oleh calon anggota untuk melakukan pendaftaran akun baru agar dapat melakukan peminjaman buku.
 
 
@@ -67,5 +67,5 @@ Halaman ini digunakan admin untuk mengelola proses peminjaman buku oleh anggota.
 
 ### 12. Halaman Laporan Peminjaman
 
-![Halaman Laporan Peminjaman](foto/laporanpeminjaman.png)
+![Halaman Laporan Peminjaman](foto/Laporanpeminjaman.png)
 Halaman ini menampilkan laporan peminjaman buku yang berisikan nama anggota, ID peminjam, tanggal pinjam, tanggal pengembalian, dan buku yang dipinjam. Pada halaman ini admin dapat mencetak laporan peminjaman dalam bentuk **Excel** dan **PDF**.
