@@ -93,15 +93,6 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
 
 ---
 
-### 🧭 Dashboard Admin
-<p align="center">
-  <img src="foto/Dashboardadmin.png" width="85%">
-</p>
-<p align="center">
-  Dashboard admin dengan akses penuh untuk mengelola buku, anggota, dan peminjaman.
-</p>
-
----
 
 ### 👤 Dashboard Anggota
 <p align="center">
