@@ -105,7 +105,7 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
 
 ### 📖 My Book
 <p align="center">
-  <img src="foto/Peminjamanbuku.png" width="80%">
+  <img src="foto/Mybook.png" width="80%">
 </p>
 <p align="center">
   Halaman My Book berisi daftar buku yang sedang dipinjam beserta tanggal peminjaman dan pengembalian.
