@@ -7,9 +7,9 @@ Dirancang untuk kebutuhan **perpustakaan sekolah / kampus** dengan sistem **dua 
 
 ## 🖼️ Preview Aplikasi
 
-![Dashboard Perpustakaan](foto/Dashboardadmin.png)
-
-**Gambar 1.** Tampilan dashboard utama Sistem Informasi Perpustakaan yang menampilkan informasi stok buku, riwayat peminjaman, serta ringkasan aktivitas perpustakaan.
+| Tampilan | Penjelasan |
+|--------|------------|
+| ![](foto/Dashboardadmin.png) | **Dashboard Admin** – Menampilkan ringkasan stok buku, riwayat peminjaman, serta aktivitas terbaru di perpustakaan. |
 
 ---
 
@@ -28,43 +28,31 @@ Sistem ini mendukung **pengelolaan buku**, **manajemen anggota**, **peminjaman**
 - Admin memiliki akses langsung ke sistem
 - Pembatasan hak akses sesuai role
 
----
-
 ### 📊 Dashboard & Monitoring
-- Dashboard Admin menampilkan stok buku dan riwayat peminjaman
-- Dashboard Anggota menampilkan informasi buku dan status pinjaman
+- Dashboard Admin untuk monitoring stok dan peminjaman
+- Dashboard Anggota untuk melihat status pinjaman
 - Monitoring buku yang sedang dipinjam
-- Informasi buku populer di perpustakaan
-
----
+- Informasi buku populer
 
 ### 📖 Manajemen Data Buku
-- Tambah, edit, dan hapus data buku (Admin)
+- Tambah, edit, dan hapus buku (Admin)
 - Pencarian buku berdasarkan judul dan kategori
-- Informasi stok buku (tersedia / dipinjam)
-- Detail buku lengkap (judul, penulis, tahun terbit)
-
----
+- Informasi stok buku
+- Detail buku lengkap
 
 ### 🔄 Transaksi Perpustakaan
 - Peminjaman buku oleh anggota
-- My Book untuk melihat buku yang sedang dipinjam
+- My Book untuk memantau buku yang dipinjam
 - Pengembalian buku oleh admin
 - Riwayat peminjaman anggota
 
----
-
 ### 📈 Laporan Peminjaman
-- Laporan data peminjaman buku
-- Informasi anggota, ID peminjam, tanggal pinjam & kembali
-- Export laporan ke **PDF** dan **Excel**
+- Laporan peminjaman buku
+- Export PDF & Excel
 - Arsip laporan perpustakaan
 
----
-
 ### 👥 Manajemen Anggota
-- Tambah anggota baru (Admin)
-- Pengelolaan data anggota perpustakaan
+- Tambah dan kelola data anggota
 - Informasi akun anggota
 
 ---
@@ -73,59 +61,49 @@ Sistem ini mendukung **pengelolaan buku**, **manajemen anggota**, **peminjaman**
 
 ### 🔑 Autentikasi & Dashboard
 
-| Login Anggota | Daftar Anggota | Dashboard Admin |
-|--------------|---------------|----------------|
-| ![](foto/Loginanggota.png) | ![](foto/Daftar.png) | ![](foto/Dashboardadmin.png) |
-
-**Gambar 2.** Halaman login anggota untuk masuk ke sistem.  
-**Gambar 3.** Halaman pendaftaran akun bagi calon anggota perpustakaan.  
-**Gambar 4.** Dashboard admin yang menampilkan informasi utama pengelolaan perpustakaan.
+| Gambar | Keterangan |
+|------|------------|
+| ![](foto/Loginanggota.png) | **Login Anggota** – Digunakan anggota untuk masuk ke sistem menggunakan akun yang telah terdaftar. |
+| ![](foto/Daftar.png) | **Daftar Anggota** – Halaman pendaftaran akun baru agar calon anggota dapat melakukan peminjaman buku. |
+| ![](foto/Dashboardadmin.png) | **Dashboard Admin** – Menampilkan informasi utama seperti stok buku, data anggota, dan aktivitas peminjaman. |
 
 ---
 
 ### 📊 Dashboard Berdasarkan Role
 
-| Admin | Anggota |
-|------|---------|
-| ![](foto/Dashboardadmin.png) | ![](foto/Dashboardanggota.png) |
-
-**Gambar 5.** Dashboard admin dengan akses penuh pengelolaan buku dan peminjaman.  
-**Gambar 6.** Dashboard anggota yang menampilkan informasi buku dan status peminjaman pribadi.
+| Gambar | Keterangan |
+|------|------------|
+| ![](foto/Dashboardadmin.png) | **Dashboard Admin** – Admin memiliki akses penuh untuk mengelola buku, anggota, dan peminjaman. |
+| ![](foto/Dashboardanggota.png) | **Dashboard Anggota** – Menampilkan daftar buku dan status peminjaman pribadi anggota. |
 
 ---
 
 ### 📖 Data & Peminjaman Buku
 
-| My Book | Pengembalian Buku | Peminjaman |
-|--------|------------------|------------|
-| ![](foto/Peminjamanbuku.png) | ![](foto/Pengembalian.png) | ![](foto/Laporanpinjaman.png) |
-
-**Gambar 7.** Halaman My Book yang menampilkan daftar buku yang sedang dipinjam oleh anggota.  
-**Gambar 8.** Halaman pengembalian buku yang digunakan admin untuk memproses pengembalian.  
-**Gambar 9.** Halaman peminjaman buku untuk mengelola transaksi peminjaman anggota.
+| Gambar | Keterangan |
+|------|------------|
+| ![](foto/Peminjamanbuku.png) | **My Book** – Menampilkan daftar buku yang sedang dipinjam oleh anggota beserta tanggal pinjam dan pengembalian. |
+| ![](foto/Pengembalian.png) | **Pengembalian Buku** – Digunakan admin untuk memproses pengembalian buku dari anggota. |
+| ![](foto/Laporanpinjaman.png) | **Peminjaman Buku** – Digunakan admin untuk mengelola transaksi peminjaman buku oleh anggota. |
 
 ---
 
 ### 📚 Manajemen Buku
 
-| Hapus / Edit Buku | Tambah Buku | Tambah Anggota |
-|------------------|------------|---------------|
-| ![](foto/Hapusbuku.png) | ![](foto/Tambahbukubaru.png) | ![](foto/Tambahanggota.png) |
-
-**Gambar 10.** Halaman kelola buku untuk mengedit dan menghapus data buku.  
-**Gambar 11.** Halaman tambah buku untuk menambahkan koleksi buku baru.  
-**Gambar 12.** Halaman tambah anggota untuk memasukkan data anggota baru ke sistem.
+| Gambar | Keterangan |
+|------|------------|
+| ![](foto/Hapusbuku.png) | **Hapus / Edit Buku** – Admin dapat mengedit dan menghapus data buku yang sudah tidak tersedia. |
+| ![](foto/Tambahbukubaru.png) | **Tambah Buku** – Admin menambahkan buku baru dengan data judul, penulis, tahun terbit, dan stok. |
+| ![](foto/Tambahanggota.png) | **Tambah Anggota** – Admin menambahkan dan mengelola data anggota perpustakaan. |
 
 ---
 
 ### 📈 Laporan & Riwayat
 
-| Laporan Peminjaman | Riwayat Peminjaman |
-|-------------------|-------------------|
-| ![](foto/Laporanpinjaman.png) | ![](foto/Dashboardadmin.png) |
-
-**Gambar 13.** Halaman laporan peminjaman buku yang dapat diekspor ke PDF dan Excel.  
-**Gambar 14.** Halaman riwayat peminjaman buku anggota.
+| Gambar | Keterangan |
+|------|------------|
+| ![](foto/Laporanpinjaman.png) | **Laporan Peminjaman** – Menampilkan laporan peminjaman buku yang dapat diekspor ke PDF dan Excel. |
+| ![](foto/Dashboardadmin.png) | **Riwayat Peminjaman** – Menampilkan seluruh riwayat peminjaman buku oleh anggota. |
 
 ---
 
@@ -152,7 +130,5 @@ Sistem ini mendukung **pengelolaan buku**, **manajemen anggota**, **peminjaman**
 - **Session:** PHP Session Management
 
 ---
-
-
 
 ✨ *Dikembangkan sebagai sistem informasi perpustakaan yang sederhana, rapi, dan mudah digunakan.*
