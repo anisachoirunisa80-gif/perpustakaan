@@ -8,16 +8,6 @@
 
 ## 🚀 Preview Aplikasi
 
-<p align="center"># 📚 Sistem Informasi Perpustakaan  
-### Web-Based Library Management System
-
-> Aplikasi web untuk mengelola **data buku**, **anggota**, serta **peminjaman & pengembalian buku** secara terstruktur dan efisien.  
-> Dirancang untuk kebutuhan **perpustakaan sekolah / kampus** dengan sistem **dua role (Admin & Anggota)**.
-
----
-
-## 🚀 Preview Aplikasi
-
 <p align="center">
   <img src="foto/Dashboardadmin.png" width="85%">
 </p>
