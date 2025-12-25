@@ -7,9 +7,10 @@ Dirancang untuk kebutuhan **perpustakaan sekolah / kampus** dengan sistem **dua 
 
 ## 🖼️ Preview Aplikasi
 
-| Tampilan | Penjelasan |
-|--------|------------|
-| ![](foto/Dashboardadmin.png) | **Dashboard Admin** – Menampilkan ringkasan stok buku, riwayat peminjaman, serta aktivitas terbaru di perpustakaan. |
+| Tampilan |
+|---------|
+| ![](foto/Dashboardadmin.png) |
+| **Dashboard Admin** – Menampilkan ringkasan stok buku, riwayat peminjaman, serta aktivitas terbaru di perpustakaan. |
 
 ---
 
@@ -29,20 +30,20 @@ Sistem ini mendukung **pengelolaan buku**, **manajemen anggota**, **peminjaman**
 - Pembatasan hak akses sesuai role
 
 ### 📊 Dashboard & Monitoring
-- Dashboard Admin untuk monitoring stok dan peminjaman
-- Dashboard Anggota untuk melihat status pinjaman
+- Dashboard Admin menampilkan stok buku dan riwayat peminjaman
+- Dashboard Anggota menampilkan informasi buku dan status pinjaman
 - Monitoring buku yang sedang dipinjam
 - Informasi buku populer
 
 ### 📖 Manajemen Data Buku
-- Tambah, edit, dan hapus buku (Admin)
+- Tambah, edit, dan hapus data buku (Admin)
 - Pencarian buku berdasarkan judul dan kategori
 - Informasi stok buku
 - Detail buku lengkap
 
 ### 🔄 Transaksi Perpustakaan
 - Peminjaman buku oleh anggota
-- My Book untuk memantau buku yang dipinjam
+- My Book untuk melihat buku yang sedang dipinjam
 - Pengembalian buku oleh admin
 - Riwayat peminjaman anggota
 
@@ -52,8 +53,8 @@ Sistem ini mendukung **pengelolaan buku**, **manajemen anggota**, **peminjaman**
 - Arsip laporan perpustakaan
 
 ### 👥 Manajemen Anggota
-- Tambah dan kelola data anggota
-- Informasi akun anggota
+- Tambah anggota baru
+- Pengelolaan data anggota perpustakaan
 
 ---
 
@@ -61,49 +62,86 @@ Sistem ini mendukung **pengelolaan buku**, **manajemen anggota**, **peminjaman**
 
 ### 🔑 Autentikasi & Dashboard
 
-| Gambar | Keterangan |
-|------|------------|
-| ![](foto/Loginanggota.png) | **Login Anggota** – Digunakan anggota untuk masuk ke sistem menggunakan akun yang telah terdaftar. |
-| ![](foto/Daftar.png) | **Daftar Anggota** – Halaman pendaftaran akun baru agar calon anggota dapat melakukan peminjaman buku. |
-| ![](foto/Dashboardadmin.png) | **Dashboard Admin** – Menampilkan informasi utama seperti stok buku, data anggota, dan aktivitas peminjaman. |
+| |
+|--|
+| ![](foto/Loginanggota.png) |
+| **Login Anggota** – Digunakan anggota untuk masuk ke sistem menggunakan akun yang telah terdaftar. |
+
+| |
+|--|
+| ![](foto/Daftar.png) |
+| **Daftar Anggota** – Halaman pendaftaran akun baru agar calon anggota dapat melakukan peminjaman buku. |
+
+| |
+|--|
+| ![](foto/Dashboardadmin.png) |
+| **Dashboard Admin** – Menampilkan informasi utama seperti stok buku, data anggota, dan aktivitas peminjaman. |
 
 ---
 
 ### 📊 Dashboard Berdasarkan Role
 
-| Gambar | Keterangan |
-|------|------------|
-| ![](foto/Dashboardadmin.png) | **Dashboard Admin** – Admin memiliki akses penuh untuk mengelola buku, anggota, dan peminjaman. |
-| ![](foto/Dashboardanggota.png) | **Dashboard Anggota** – Menampilkan daftar buku dan status peminjaman pribadi anggota. |
+| |
+|--|
+| ![](foto/Dashboardadmin.png) |
+| **Dashboard Admin** – Admin memiliki akses penuh dalam pengelolaan buku, anggota, dan peminjaman. |
+
+| |
+|--|
+| ![](foto/Dashboardanggota.png) |
+| **Dashboard Anggota** – Menampilkan daftar buku dan status peminjaman pribadi anggota. |
 
 ---
 
 ### 📖 Data & Peminjaman Buku
 
-| Gambar | Keterangan |
-|------|------------|
-| ![](foto/Peminjamanbuku.png) | **My Book** – Menampilkan daftar buku yang sedang dipinjam oleh anggota beserta tanggal pinjam dan pengembalian. |
-| ![](foto/Pengembalian.png) | **Pengembalian Buku** – Digunakan admin untuk memproses pengembalian buku dari anggota. |
-| ![](foto/Laporanpinjaman.png) | **Peminjaman Buku** – Digunakan admin untuk mengelola transaksi peminjaman buku oleh anggota. |
+| |
+|--|
+| ![](foto/Peminjamanbuku.png) |
+| **My Book** – Menampilkan daftar buku yang sedang dipinjam oleh anggota beserta tanggal pinjam dan pengembalian. |
+
+| |
+|--|
+| ![](foto/Pengembalian.png) |
+| **Pengembalian Buku** – Digunakan admin untuk memproses pengembalian buku dari anggota. |
+
+| |
+|--|
+| ![](foto/Laporanpinjaman.png) |
+| **Peminjaman Buku** – Digunakan admin untuk mengelola transaksi peminjaman buku oleh anggota. |
 
 ---
 
 ### 📚 Manajemen Buku
 
-| Gambar | Keterangan |
-|------|------------|
-| ![](foto/Hapusbuku.png) | **Hapus / Edit Buku** – Admin dapat mengedit dan menghapus data buku yang sudah tidak tersedia. |
-| ![](foto/Tambahbukubaru.png) | **Tambah Buku** – Admin menambahkan buku baru dengan data judul, penulis, tahun terbit, dan stok. |
-| ![](foto/Tambahanggota.png) | **Tambah Anggota** – Admin menambahkan dan mengelola data anggota perpustakaan. |
+| |
+|--|
+| ![](foto/Hapusbuku.png) |
+| **Hapus / Edit Buku** – Admin dapat mengedit dan menghapus data buku yang sudah tidak tersedia. |
+
+| |
+|--|
+| ![](foto/Tambahbukubaru.png) |
+| **Tambah Buku** – Admin menambahkan buku baru dengan data judul, penulis, tahun terbit, dan stok. |
+
+| |
+|--|
+| ![](foto/Tambahanggota.png) |
+| **Tambah Anggota** – Admin menambahkan dan mengelola data anggota perpustakaan. |
 
 ---
 
 ### 📈 Laporan & Riwayat
 
-| Gambar | Keterangan |
-|------|------------|
-| ![](foto/Laporanpinjaman.png) | **Laporan Peminjaman** – Menampilkan laporan peminjaman buku yang dapat diekspor ke PDF dan Excel. |
-| ![](foto/Dashboardadmin.png) | **Riwayat Peminjaman** – Menampilkan seluruh riwayat peminjaman buku oleh anggota. |
+| |
+|--|
+| ![](foto/Laporanpinjaman.png) |
+| **Laporan Peminjaman** – Menampilkan laporan peminjaman buku yang dapat diekspor ke PDF dan Excel. |
+
+| |
+|--|
+| ![](foto/Dashboardadmin.png) |
+| **Riwayat Peminjaman** – Menampilkan seluruh riwayat peminjaman buku oleh anggota. |
 
 ---
 
