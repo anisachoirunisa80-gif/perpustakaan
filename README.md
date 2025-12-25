@@ -98,7 +98,7 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
   <img src="foto/Dashboardanggota.png" width="85%">
 </p>
 <p align="center">
-  Dashboard anggota yang menampilkan informasi buku dan status peminjaman pribadi.
+  Dashboard anggota yang menampilkan informasi buku yang bisa dipinjam.
 </p>
 
 ---
