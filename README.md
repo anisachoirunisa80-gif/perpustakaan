@@ -75,7 +75,7 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
 
 ### 📝 Pendaftaran Anggota
 <p align="center">
-  <img src="foto/Daftar.png" width="70%">
+  <img src="foto/Daftaranggota.png" width="70%">
 </p>
 <p align="center">
   Halaman pendaftaran akun baru bagi calon anggota perpustakaan.
