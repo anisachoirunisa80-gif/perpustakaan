@@ -1,71 +1,136 @@
-## 📸 Screenshot Aplikasi
-
-### 1. Halaman Login Anggota
-
-![Halaman Login Anggota](foto/Loginanggota.png)
-Halaman ini digunakan oleh **anggota** untuk login ke dalam sistem dengan memasukkan username dan password. Jika anggota belum memiliki akun, tersedia tombol **daftar** untuk membuat akun baru.
-
-
-### 2. Halaman Daftar Anggota
-
-![Halaman Daftar Anggota](foto/Daftaranggota.png)
-Halaman ini digunakan oleh calon anggota untuk melakukan pendaftaran akun baru agar dapat melakukan peminjaman buku.
-
-
-### 3. Halaman Dashboard Anggota
-
-![Halaman Dashboard Anggota](foto/Dashboardanggota.png)
-Halaman dashboard anggota menampilkan informasi buku yang tersedia di perpustakaan serta fitur pencarian untuk membantu anggota menemukan buku yang diinginkan.
-
-
-### 4. My Book
-
-![Halaman My Book](foto/Mybook.png)
-Halaman **My Book** menampilkan daftar buku yang sedang dipinjam oleh anggota, termasuk informasi tanggal peminjaman dan tempat pengembalian buku yang telah dipinjam.
-
-
-### 5. Halaman Pengembalian Buku
-
-![Halaman Pengembalian](foto/Pengembalian.png)
-Halaman ini digunakan admin untuk proses pengembalian buku yang telah dipinjam oleh anggota.
-
-
-### 6. Halaman Pencarian Buku
-
-![Halaman Pencarian Buku](foto/Pencarianbuku.png)
-Halaman ini untuk admin mencari seluruh buku yang ada di perpustakaan dan menampilkan buku yang paling sering di pinjam.
-
-### 7. Dashboard Admin
+# 📚 Sistem Informasi Perpustakaan
 
 ![Dashboard Admin](foto/Dashboardadmin.png)
-Halaman utama admin yang menampilkan informasi stok buku, riwayat peminjaman, daftar buku populer, serta semua buku yang ada di perpustakaan.
 
+## 📌 Deskripsi Proyek
+Sistem Informasi Perpustakaan adalah aplikasi berbasis web yang dirancang untuk membantu pengelolaan data buku, anggota, serta transaksi peminjaman dan pengembalian buku secara efisien dan terstruktur. Aplikasi ini memiliki dua jenis pengguna, yaitu **Admin** dan **Anggota**, dengan hak akses yang berbeda.
 
-### 8. Halaman Hapus Buku
+---
 
-![Halaman Hapus Buku](foto/Hapusbuku.png)
-Halaman ini digunakan oleh admin untuk menghapus data buku yang sudah tidak tersedia, dan mengedit buku dalam sistem perpustakaan.
+## ✨ Fitur Utama
 
+### 🔐 Sistem Autentikasi
+- Login Anggota
+- Registrasi Anggota
+- Admin tanpa login
 
-### 9. Halaman Tambah Buku
+### 📊 Dashboard & Monitoring
+- Dashboard Admin (stok buku, riwayat peminjaman, buku populer)
+- Dashboard Anggota (informasi buku & peminjaman)
 
-![Halaman Tambah Buku](foto/Tambahbukubaru.png)
-Halaman ini digunakan admin untuk menambahkan buku baru dengan mengisi data buku seperti judul, penulis, tahun terbit, dan jumlah stok.
+### 📖 Manajemen Data Buku
+- Tambah Buku
+- Edit Buku
+- Hapus Buku
+- Pencarian Buku
 
+### 🔄 Transaksi Perpustakaan
+- Peminjaman Buku
+- My Book
+- Pengembalian Buku
+- Riwayat Peminjaman
 
-### 10. Halaman Tambah Anggota
+### 📈 Laporan
+- Laporan Peminjaman
+- Export PDF & Excel
 
-![Halaman Tambah Anggota](foto/Tambahanggota.png)
-Halaman ini digunakan admin untuk mengelola data anggota perpustakaan, seperti menambahkan anggota baru.
+### 👥 Manajemen Anggota
+- Tambah Anggota
+- Kelola Data Anggota
 
+---
 
-### 11. Halaman Peminjaman
+## 🖼️ Tampilan Aplikasi
 
-![Halaman Peminjaman](foto/Peminjamanbuku.png)
-Halaman ini digunakan admin untuk mengelola proses peminjaman buku oleh anggota.
+### 🔑 Halaman Autentikasi
 
+**Login Anggota**  
+![Login Anggota](foto/Loginanggota.png)
 
-### 12. Halaman Laporan Peminjaman
+**Daftar Anggota**  
+![Daftar Anggota](foto/Daftar.png)
 
-![Halaman Laporan Peminjaman](foto/Laporanpinjaman.png)
-Halaman ini menampilkan laporan peminjaman buku yang berisikan nama anggota, ID peminjam, tanggal pinjam, tanggal pengembalian, dan buku yang dipinjam. Pada halaman ini admin dapat mencetak laporan peminjaman dalam bentuk **Excel** dan **PDF**.
+---
+
+### 📊 Dashboard
+
+**Dashboard Anggota**  
+![Dashboard Anggota](foto/Dashboardanggota.png)
+
+**Dashboard Admin**  
+![Dashboard Admin](foto/Dashboardadmin.png)
+
+---
+
+### 📖 Transaksi & Peminjaman
+
+**My Book**  
+![My Book](foto/Peminjamanbuku.png)
+
+**Pengembalian Buku**  
+![Pengembalian Buku](foto/Pengembalian.png)
+
+**Manajemen Peminjaman**  
+![Manajemen Peminjaman](foto/Laporanpinjaman.png)
+
+---
+
+### 📚 Manajemen Data
+
+**Tambah Buku**  
+![Tambah Buku](assets/tambahBuku.png)
+
+**Hapus / Edit Buku**  
+![Kelola Buku](assets/kelolaBuku.png)
+
+**Tambah Anggota**  
+![Tambah Anggota](assets/kelolaAnggota.png)
+
+---
+
+### 📈 Laporan
+
+**Laporan Peminjaman**  
+![Laporan Peminjaman](assets/laporanPeminjaman.png)
+
+**Riwayat Peminjaman**  
+![Riwayat Peminjaman](assets/riwayatPeminjaman.png)
+
+---
+
+## 👥 Role & Hak Akses
+
+| Fitur | Admin | Anggota |
+|------|-------|---------|
+| Dashboard | ✅ Full | ✅ Terbatas |
+| Data Buku | ✅ CRUD | ❌ |
+| Peminjaman Buku | ✅ Kelola | ✅ Pinjam |
+| Pengembalian Buku | ✅ | ❌ |
+| My Book | ❌ | ✅ |
+| Laporan | ✅ PDF & Excel | ❌ |
+| Tambah Anggota | ✅ | ❌ |
+
+---
+
+## 🚀 Hak Akses Pengguna
+
+### 🔑 Admin
+- Kelola buku dan anggota
+- Kelola peminjaman & pengembalian
+- Cetak laporan PDF & Excel
+- Monitoring aktivitas perpustakaan
+
+### 👤 Anggota
+- Login & registrasi
+- Lihat katalog buku
+- Pinjam buku
+- Lihat riwayat peminjaman
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- Frontend: HTML5, CSS3, JavaScript
+- Backend: PHP
+- Database: MySQL
+- Export: PDF & Excel
+- Session: PHP Session Management
