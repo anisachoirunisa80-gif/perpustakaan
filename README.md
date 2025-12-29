@@ -6,19 +6,6 @@
 
 ---
 
-## 🚀 Preview Aplikasi
-
-<p align="center">
-  <img src="foto/Dashboardadmin.png" width="85%">
-</p>
-
-<p align="center">
-  <b>Dashboard Admin</b><br>
-  Menampilkan ringkasan stok buku, jumlah anggota, riwayat peminjaman, serta aktivitas terbaru perpustakaan.
-</p>
-
----
-
 ## 📌 Tentang Proyek
 
 **Sistem Informasi Perpustakaan** merupakan aplikasi berbasis web yang bertujuan untuk membantu pengelolaan operasional perpustakaan secara digital.  
@@ -87,18 +74,6 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
 
 ---
 
-### 🧭 Dashboard Admin
-<p align="center">
-  <img src="foto/Dashboardadmin.png" width="85%">
-</p>
-
-**Fungsi:**
-- Monitoring stok dan aktivitas perpustakaan  
-- Akses cepat ke seluruh fitur admin  
-- Ringkasan data buku & peminjaman  
-
----
-
 ### 👤 Dashboard Anggota
 <p align="center">
   <img src="foto/Dashboardanggota.png" width="85%">
@@ -108,6 +83,30 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
 - Melihat buku yang tersedia  
 - Melihat status peminjaman pribadi  
 - Akses ke fitur pencarian dan My Book  
+
+---
+
+### 📖 My Book
+<p align="center">
+  <img src="foto/Mybook.png" width="80%">
+</p>
+
+**Fungsi:**
+- Menampilkan daftar buku yang dipinjam  
+- Menampilkan tanggal pinjam & pengembalian  
+- Membantu anggota memantau pinjaman  
+
+---
+
+### 🧭 Dashboard Admin
+<p align="center">
+  <img src="foto/Dashboardadmin.png" width="85%">
+</p>
+
+**Fungsi:**
+- Monitoring stok dan aktivitas perpustakaan  
+- Akses cepat ke seluruh fitur admin  
+- Ringkasan data buku & peminjaman  
 
 ---
 
@@ -132,18 +131,6 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
 - Mencatat transaksi peminjaman buku  
 - Mengurangi stok secara otomatis  
 - Menyimpan data tanggal peminjaman  
-
----
-
-### 📖 My Book
-<p align="center">
-  <img src="foto/Mybook.png" width="80%">
-</p>
-
-**Fungsi:**
-- Menampilkan daftar buku yang dipinjam  
-- Menampilkan tanggal pinjam & pengembalian  
-- Membantu anggota memantau pinjaman  
 
 ---
 
