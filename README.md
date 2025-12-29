@@ -61,116 +61,114 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
 
 ---
 
-## 🖼️ Tampilan Aplikasi
+🖼️ Tampilan Aplikasi & Fungsinya
+🔑 Login Anggota
+<p align="center"> <img src="foto/Loginanggota.png" width="70%"> </p> <p align="center"> <b>Fungsi Halaman Login Anggota</b> </p>
 
-### 🔑 Login Anggota
-<p align="center">
-  <img src="foto/Loginanggota.png" width="70%">
-</p>
-<p align="center">
-  Halaman login yang digunakan anggota untuk mengakses sistem menggunakan akun terdaftar.
-</p>
+Digunakan oleh anggota untuk masuk ke sistem perpustakaan
 
----
+Memverifikasi username dan password anggota
 
-### 📝 Pendaftaran Anggota
-<p align="center">
-  <img src="foto/Daftaranggota.png" width="70%">
-</p>
-<p align="center">
-  Halaman pendaftaran akun baru bagi calon anggota perpustakaan.
-</p>
+Mengarahkan anggota ke dashboard setelah login berhasil
 
----
+📝 Pendaftaran Anggota
+<p align="center"> <img src="foto/Daftaranggota.png" width="70%"> </p> <p align="center"> <b>Fungsi Halaman Pendaftaran Anggota</b> </p>
 
+Digunakan untuk mendaftarkan anggota baru
 
-### 👤 Dashboard Anggota
-<p align="center">
-  <img src="foto/Dashboardanggota.png" width="85%">
-</p>
-<p align="center">
-  Dashboard anggota yang menampilkan informasi buku yang tersedia serta status peminjaman.
-</p>
+Menyimpan data anggota ke dalam database
 
----
+Memberikan akun login bagi calon anggota perpustakaan
 
-### 🔍 Pencarian Buku
-<p align="center">
-  <img src="foto/Pencarianbuku.png" width="80%">
-</p>
-<p align="center">
-  Fitur pencarian buku yang memungkinkan anggota dan admin mencari buku berdasarkan judul untuk mempermudah proses peminjaman.
-</p>
+🧭 Dashboard Admin
+<p align="center"> <img src="foto/Dashboardadmin.png" width="85%"> </p> <p align="center"> <b>Fungsi Dashboard Admin</b> </p>
 
----
+Menampilkan ringkasan data perpustakaan
 
-### 📘 Peminjaman Buku
-<p align="center">
-  <img src="foto/Peminjamanbuku.png" width="80%">
-</p>
-<p align="center">
-  Halaman peminjaman buku yang digunakan untuk mencatat transaksi peminjaman buku oleh anggota perpustakaan.
-</p>
+Menampilkan jumlah buku, anggota, dan peminjaman
 
----
+Menjadi pusat kontrol admin dalam mengelola sistem
 
-### 📖 My Book
-<p align="center">
-  <img src="foto/Mybook.png" width="80%">
-</p>
-<p align="center">
-  Halaman My Book berisi daftar buku yang sedang dipinjam beserta tanggal peminjaman dan pengembalian.
-</p>
+👤 Dashboard Anggota
+<p align="center"> <img src="foto/Dashboardanggota.png" width="85%"> </p> <p align="center"> <b>Fungsi Dashboard Anggota</b> </p>
 
----
+Menampilkan daftar buku yang tersedia
 
-### 🔄 Pengembalian Buku
-<p align="center">
-  <img src="foto/Pengembalian.png" width="80%">
-</p>
-<p align="center">
-  Halaman pengembalian buku yang digunakan admin untuk memproses pengembalian dari anggota.
-</p>
+Menampilkan status peminjaman anggota
 
----
+Memberikan akses ke pencarian buku dan My Book
 
-### 📚 Kelola Buku
-<p align="center">
-  <img src="foto/Hapusbuku.png" width="80%">
-</p>
-<p align="center">
-  Admin dapat mengedit dan menghapus data buku yang sudah tidak tersedia.
-</p>
+🔍 Pencarian Buku
+<p align="center"> <img src="foto/Pencarianbuku.png" width="80%"> </p> <p align="center"> <b>Fungsi Halaman Pencarian Buku</b> </p>
 
----
+Memudahkan pencarian buku berdasarkan judul
 
-### ➕ Tambah Buku
-<p align="center">
-  <img src="foto/Tambahbukubaru.png" width="80%">
-</p>
-<p align="center">
-  Halaman untuk menambahkan koleksi buku baru ke dalam sistem perpustakaan.
-</p>
+Menampilkan informasi ketersediaan buku
 
----
+Membantu anggota memilih buku sebelum dipinjam
 
-### 👥 Kelola Anggota
-<p align="center">
-  <img src="foto/Tambahanggota.png" width="80%">
-</p>
-<p align="center">
-  Halaman pengelolaan data anggota perpustakaan oleh admin.
-</p>
+📘 Peminjaman Buku
+<p align="center"> <img src="foto/Peminjamanbuku.png" width="80%"> </p> <p align="center"> <b>Fungsi Halaman Peminjaman Buku</b> </p>
 
----
+Digunakan untuk mencatat transaksi peminjaman buku
 
-### 📊 Laporan Peminjaman
-<p align="center">
-  <img src="foto/Laporanpinjaman.png" width="85%">
-</p>
-<p align="center">
-  Laporan peminjaman buku yang dapat diekspor ke dalam format PDF dan Excel.
-</p>
+Mengurangi stok buku secara otomatis
+
+Menyimpan data tanggal peminjaman dan batas pengembalian
+
+📖 My Book
+<p align="center"> <img src="foto/Mybook.png" width="80%"> </p> <p align="center"> <b>Fungsi Halaman My Book</b> </p>
+
+Menampilkan daftar buku yang sedang dipinjam anggota
+
+Menampilkan tanggal pinjam dan pengembalian
+
+Membantu anggota memantau status pinjaman
+
+🔄 Pengembalian Buku
+<p align="center"> <img src="foto/Pengembalian.png" width="80%"> </p> <p align="center"> <b>Fungsi Halaman Pengembalian Buku</b> </p>
+
+Digunakan admin untuk memproses pengembalian buku
+
+Mengembalikan stok buku ke sistem
+
+Menyelesaikan transaksi peminjaman
+
+📚 Kelola Buku
+<p align="center"> <img src="foto/Hapusbuku.png" width="80%"> </p> <p align="center"> <b>Fungsi Halaman Kelola Buku</b> </p>
+
+Digunakan admin untuk mengedit dan menghapus data buku
+
+Menjaga data buku tetap akurat
+
+Mengelola koleksi buku perpustakaan
+
+➕ Tambah Buku
+<p align="center"> <img src="foto/Tambahbukubaru.png" width="80%"> </p> <p align="center"> <b>Fungsi Halaman Tambah Buku</b> </p>
+
+Digunakan admin untuk menambahkan buku baru
+
+Menyimpan data judul, penulis, dan stok buku
+
+Menambah koleksi perpustakaan
+
+👥 Kelola Anggota
+<p align="center"> <img src="foto/Tambahanggota.png" width="80%"> </p> <p align="center"> <b>Fungsi Halaman Kelola Anggota</b> </p>
+
+Digunakan admin untuk mengelola data anggota
+
+Menambahkan anggota baru secara manual
+
+Mengontrol data akun anggota
+
+📊 Laporan Peminjaman
+<p align="center"> <img src="foto/Laporanpinjaman.png" width="85%"> </p> <p align="center"> <b>Fungsi Halaman Laporan Peminjaman</b> </p>
+
+Menampilkan data peminjaman buku
+
+Digunakan untuk arsip dan evaluasi perpustakaan
+
+Dapat diekspor ke format PDF dan Excel
 
 ---
 
