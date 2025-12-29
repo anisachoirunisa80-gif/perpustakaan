@@ -1,17 +1,7 @@
 # 📚 Sistem Informasi Perpustakaan  
-### Web-Based Library Management System
 
 > Aplikasi web untuk mengelola **data buku**, **anggota**, serta **peminjaman & pengembalian buku** secara terstruktur dan efisien.  
 > Dirancang untuk kebutuhan **perpustakaan sekolah / kampus** dengan sistem **dua role (Admin & Anggota)**.
-
----
-
-## 📌 Tentang Proyek
-
-**Sistem Informasi Perpustakaan** merupakan aplikasi berbasis web yang bertujuan untuk membantu pengelolaan operasional perpustakaan secara digital.  
-Aplikasi ini mencakup pengelolaan buku, data anggota, transaksi peminjaman dan pengembalian, serta pembuatan laporan peminjaman.
-
-Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupun anggota perpustakaan.
 
 ---
 
@@ -198,19 +188,18 @@ Sistem dirancang **sederhana, rapi, dan mudah digunakan**, baik oleh admin maupu
 
 | Fitur | Admin | Anggota |
 |------|-------|---------|
-| Dashboard | ✅ Full | ✅ Limited |
+| Dashboard | ✅ Full | ✅ Full |
 | Data Buku | ✅ CRUD | 👁️ View |
 | Peminjaman | ✅ Kelola | ✅ Pinjam |
 | Pengembalian | ✅ Ya | ❌ Tidak |
-| My Book | ❌ | ✅ Ya |
-| Laporan | ✅ Export | 👁️ View |
+| My Book | ❌ Tidak | ✅ Ya |
+| Laporan | ✅ Ya | ❌ Tidak |
 | Tambah Anggota | ✅ Ya | ❌ Tidak |
 
 ---
 
 ## 🛠️ Teknologi
 
-- **Frontend:** HTML5, CSS3, JavaScript  
 - **Backend:** PHP  
 - **Database:** MySQL  
 - **Export:** PDF & Excel  
