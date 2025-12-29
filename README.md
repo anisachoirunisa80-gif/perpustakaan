@@ -197,6 +197,315 @@
 | Tambah Anggota | ✅ Ya | ❌ Tidak |
 
 ---
+---
+
+## 🗄️ Struktur Database
+
+Sistem Informasi Perpustakaan ini menggunakan database **MySQL** yang dirancang untuk mendukung proses pengelolaan buku, anggota, peminjaman, dan pengembalian secara terintegrasi.
+
+### 📁 Tabel `admin`
+Menyimpan data administrator sistem.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_admin | INT (PK) | ID unik admin |
+| username | VARCHAR | Username admin |
+| password | VARCHAR | Password admin (terenkripsi) |
+
+---
+
+### 👥 Tabel `anggota`
+Menyimpan data anggota perpustakaan.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_anggota | INT (PK) | ID unik anggota |
+| nama | VARCHAR | Nama lengkap anggota |
+| username | VARCHAR | Username login |
+| password | VARCHAR | Password anggota |
+| alamat | TEXT | Alamat anggota |
+| no_hp | VARCHAR | Nomor HP |
+| tanggal_daftar | DATE | Tanggal pendaftaran |
+
+---
+
+### 📚 Tabel `buku`
+Menyimpan data koleksi buku perpustakaan.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_buku | INT (PK) | ID unik buku |
+| judul_buku | VARCHAR | Judul buku |
+| penulis | VARCHAR | Nama penulis |
+| penerbit | VARCHAR | Nama penerbit |
+| tahun_terbit | YEAR | Tahun terbit |
+| stok | INT | Jumlah stok buku |
+
+---
+
+### 🔄 Tabel `peminjaman`
+Menyimpan data transaksi peminjaman buku.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_peminjaman | INT (PK) | ID peminjaman |
+| id_anggota | INT (FK) | ID anggota |
+| id_buku | INT (FK) | ID buku |
+| tanggal_pinjam | DATE | Tanggal peminjaman |
+| tanggal_kembali | DATE | Tanggal pengembalian |
+| status | ENUM | Dipinjam / Dikembalikan |
+
+---
+
+### 📊 Tabel `laporan_peminjaman`
+Digunakan untuk keperluan rekap dan laporan peminjaman.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_laporan | INT (PK) | ID laporan |
+| id_peminjaman | INT (FK) | ID peminjaman |
+| nama_anggota | VARCHAR | Nama anggota |
+| judul_buku | VARCHAR | Judul buku |
+| tanggal_pinjam | DATE | Tanggal pinjam |
+| tanggal_kembali | DATE | Tanggal kembali |
+
+---
+
+---
+
+## 🗄️ Struktur Database
+
+Sistem Informasi Perpustakaan ini menggunakan database **MySQL** yang dirancang untuk mendukung proses pengelolaan buku, anggota, peminjaman, dan pengembalian secara terintegrasi.
+
+### 📁 Tabel `admin`
+Menyimpan data administrator sistem.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_admin | INT (PK) | ID unik admin |
+| username | VARCHAR | Username admin |
+| password | VARCHAR | Password admin (terenkripsi) |
+
+---
+
+### 👥 Tabel `anggota`
+Menyimpan data anggota perpustakaan.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_anggota | INT (PK) | ID unik anggota |
+| nama | VARCHAR | Nama lengkap anggota |
+| username | VARCHAR | Username login |
+| password | VARCHAR | Password anggota |
+| alamat | TEXT | Alamat anggota |
+| no_hp | VARCHAR | Nomor HP |
+| tanggal_daftar | DATE | Tanggal pendaftaran |
+
+---
+
+### 📚 Tabel `buku`
+Menyimpan data koleksi buku perpustakaan.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_buku | INT (PK) | ID unik buku |
+| judul_buku | VARCHAR | Judul buku |
+| penulis | VARCHAR | Nama penulis |
+| penerbit | VARCHAR | Nama penerbit |
+| tahun_terbit | YEAR | Tahun terbit |
+| stok | INT | Jumlah stok buku |
+
+---
+
+### 🔄 Tabel `peminjaman`
+Menyimpan data transaksi peminjaman buku.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_peminjaman | INT (PK) | ID peminjaman |
+| id_anggota | INT (FK) | ID anggota |
+| id_buku | INT (FK) | ID buku |
+| tanggal_pinjam | DATE | Tanggal peminjaman |
+| tanggal_kembali | DATE | Tanggal pengembalian |
+| status | ENUM | Dipinjam / Dikembalikan |
+
+---
+
+### 📊 Tabel `laporan_peminjaman`
+Digunakan untuk keperluan rekap dan laporan peminjaman.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_laporan | INT (PK) | ID laporan |
+| id_peminjaman | INT (FK) | ID peminjaman |
+| nama_anggota | VARCHAR | Nama anggota |
+| judul_buku | VARCHAR | Judul buku |
+| tanggal_pinjam | DATE | Tanggal pinjam |
+| tanggal_kembali | DATE | Tanggal kembali |
+
+---
+
+---
+
+## 🗄️ Struktur Database
+
+Sistem Informasi Perpustakaan ini menggunakan database **MySQL** yang dirancang untuk mendukung proses pengelolaan buku, anggota, peminjaman, dan pengembalian secara terintegrasi.
+
+### 📁 Tabel `admin`
+Menyimpan data administrator sistem.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_admin | INT (PK) | ID unik admin |
+| username | VARCHAR | Username admin |
+| password | VARCHAR | Password admin (terenkripsi) |
+
+---
+
+### 👥 Tabel `anggota`
+Menyimpan data anggota perpustakaan.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_anggota | INT (PK) | ID unik anggota |
+| nama | VARCHAR | Nama lengkap anggota |
+| username | VARCHAR | Username login |
+| password | VARCHAR | Password anggota |
+| alamat | TEXT | Alamat anggota |
+| no_hp | VARCHAR | Nomor HP |
+| tanggal_daftar | DATE | Tanggal pendaftaran |
+
+---
+
+### 📚 Tabel `buku`
+Menyimpan data koleksi buku perpustakaan.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_buku | INT (PK) | ID unik buku |
+| judul_buku | VARCHAR | Judul buku |
+| penulis | VARCHAR | Nama penulis |
+| penerbit | VARCHAR | Nama penerbit |
+| tahun_terbit | YEAR | Tahun terbit |
+| stok | INT | Jumlah stok buku |
+
+---
+
+### 🔄 Tabel `peminjaman`
+Menyimpan data transaksi peminjaman buku.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_peminjaman | INT (PK) | ID peminjaman |
+| id_anggota | INT (FK) | ID anggota |
+| id_buku | INT (FK) | ID buku |
+| tanggal_pinjam | DATE | Tanggal peminjaman |
+| tanggal_kembali | DATE | Tanggal pengembalian |
+| status | ENUM | Dipinjam / Dikembalikan |
+
+---
+
+### 📊 Tabel `laporan_peminjaman`
+Digunakan untuk keperluan rekap dan laporan peminjaman.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_laporan | INT (PK) | ID laporan |
+| id_peminjaman | INT (FK) | ID peminjaman |
+| nama_anggota | VARCHAR | Nama anggota |
+| judul_buku | VARCHAR | Judul buku |
+| tanggal_pinjam | DATE | Tanggal pinjam |
+| tanggal_kembali | DATE | Tanggal kembali |
+
+---
+
+---
+
+## 🗄️ Struktur Database
+
+Sistem Informasi Perpustakaan ini menggunakan database **MySQL** yang dirancang untuk mendukung proses pengelolaan buku, anggota, peminjaman, dan pengembalian secara terintegrasi.
+
+### 📁 Tabel `admin`
+Menyimpan data administrator sistem.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_admin | INT (PK) | ID unik admin |
+| username | VARCHAR | Username admin |
+| password | VARCHAR | Password admin (terenkripsi) |
+
+---
+
+### 👥 Tabel `anggota`
+Menyimpan data anggota perpustakaan.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_anggota | INT (PK) | ID unik anggota |
+| nama | VARCHAR | Nama lengkap anggota |
+| username | VARCHAR | Username login |
+| password | VARCHAR | Password anggota |
+| alamat | TEXT | Alamat anggota |
+| no_hp | VARCHAR | Nomor HP |
+| tanggal_daftar | DATE | Tanggal pendaftaran |
+
+---
+
+### 📚 Tabel `buku`
+Menyimpan data koleksi buku perpustakaan.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_buku | INT (PK) | ID unik buku |
+| judul_buku | VARCHAR | Judul buku |
+| penulis | VARCHAR | Nama penulis |
+| penerbit | VARCHAR | Nama penerbit |
+| tahun_terbit | YEAR | Tahun terbit |
+| stok | INT | Jumlah stok buku |
+
+---
+
+### 🔄 Tabel `peminjaman`
+Menyimpan data transaksi peminjaman buku.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_peminjaman | INT (PK) | ID peminjaman |
+| id_anggota | INT (FK) | ID anggota |
+| id_buku | INT (FK) | ID buku |
+| tanggal_pinjam | DATE | Tanggal peminjaman |
+| tanggal_kembali | DATE | Tanggal pengembalian |
+| status | ENUM | Dipinjam / Dikembalikan |
+
+---
+
+### 📊 Tabel `laporan_peminjaman`
+Digunakan untuk keperluan rekap dan laporan peminjaman.
+
+| Field | Tipe Data | Keterangan |
+|------|----------|------------|
+| id_laporan | INT (PK) | ID laporan |
+| id_peminjaman | INT (FK) | ID peminjaman |
+| nama_anggota | VARCHAR | Nama anggota |
+| judul_buku | VARCHAR | Judul buku |
+| tanggal_pinjam | DATE | Tanggal pinjam |
+| tanggal_kembali | DATE | Tanggal kembali |
+
+---
+
+### 🔗 Relasi Antar Tabel
+
+- `anggota` ➝ `peminjaman` (One to Many)  
+- `buku` ➝ `peminjaman` (One to Many)  
+- `peminjaman` ➝ `laporan_peminjaman` (One to One)  
+
+Struktur database ini dirancang untuk:
+- Menjaga **integritas data**
+- Memudahkan proses **query laporan**
+- Mendukung **pengembangan fitur lanjutan**
+
+---
+
 
 ## 🛠️ Teknologi
 
